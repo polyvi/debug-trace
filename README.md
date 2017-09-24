@@ -46,9 +46,9 @@ const trace = Trace('trace')
 import * as R from 'ramda'
 
 const f = R.compose(
-	f2,
-  	trace,
-  	f1
+    f2,
+    trace,
+    f1
 )
 f1[1,2,3] //output: trace [ 1, 2, 3 ] +0ms
 ```
