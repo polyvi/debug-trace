@@ -1,0 +1,27 @@
+{
+    "name": "debug-trace",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:polyvi/debug-trace.git"
+    },
+    "description": "A wrapper of tj/debug for functional programming.",
+    "keywords": [
+        "debug",
+        "log",
+        "debugger",
+        "trace",
+        "fn",
+        "ts"
+    ],
+    "author": "Mark Feng <fengzg@polyvi.com>",
+    "license": "MIT",
+    "dependencies": {
+        "@types/debug": "0.0.30",
+        "debug": "^3.0.1"
+    },
+    "devDependencies": {
+        "typescript": "^2.4.2"
+    },
+    "main": "lib/index.js"
+}
