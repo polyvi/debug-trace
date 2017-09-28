@@ -20,9 +20,7 @@ var Trace = require('debug-trace-fn');
   or es6/typescript:
 
 ```typescript
-import { Trace } from 'debug-trace-fn';
-or:
-import { Trace as Debug} from 'debug-trace-fn';  //for compatible with tj/debug
+import * as Debug  from 'debug-trace-fn';
 ```
 
 
@@ -40,7 +38,7 @@ foo(obj.a);// foo(debug(obj).a);
 - for functional programming:
 
 ```javascript
-import { Trace } from 'debug-trace-fn'
+import * as Trace from 'debug-trace-fn'
 const trace = Trace('trace')
 
 import * as R from 'ramda'
